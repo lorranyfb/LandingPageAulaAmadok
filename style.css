@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-size: 100%;
+    background: #f4f5f4;
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.logonatal {
+    height: 90px;
+}
+.menu {
+    display: flex;
+    gap: 40px;
+}
+.item-menu {
+    color: #5e0c0c;
+    font-weight: 400px;
+    font-size: 20px;
+}
+.conteudo {
+    border-top: 0.4px solid #122015;
+    margin-bottom: 50px;
+}
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; 
+}
