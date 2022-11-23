@@ -3,10 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    
 }
 body {
     font-size: 100%;
-    background: #f4f5f4;
+    background: rgb(241, 233, 118)
 }
 .cabecalho {
     display: flex;
@@ -14,26 +15,130 @@ body {
     align-items: center;
     justify-content: space-around;
     padding: 24px;
+    background: #d1cb96;
 }
-.logonatal {
-    height: 90px;
+.logo {
+    height: 100px;
 }
 .menu {
     display: flex;
-    gap: 40px;
+    gap: 32px;
 }
-.item-menu {
-    color: #5e0c0c;
+.item {
+    color: #0f0f0f;
     font-weight: 400px;
-    font-size: 20px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 .conteudo {
-    border-top: 0.4px solid #122015;
-    margin-bottom: 50px;
+    margin: 50px;
 }
-.conteudo-principal {
+.primeira-secao {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around; 
 }
+div {
+    display: flex;
+    flex-direction: column;
+    gap:32px;
+}
+.titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: #050505;
+  }
+  
+  .subtitulo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #0f0f0f;
+  }
+
+.botao {
+    background-color: #ececec;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px #050505 85.61%;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #070707;
+  }
+  
+  .botao:hover {
+    background-color: rgba(229, 255, 227, 0.53);
+  }
+  
+  .imagem-principal {
+    height: 400px;
+  }
+  .segunda-secao {
+    background-color: white;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 40px; 
+    padding: 50px;
+    font-weight: 500;
+  }
+  
+  .motivos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 4em;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .motivo {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 20%;
+    color: black;
+  }
+  
+  .imagem-motivo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+  .terceira-secao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px; 
+    padding: 50px;
+  }
+  .paragrafo {
+    padding-top: 48px;
+    margin-bottom: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400px;
+    font-size: 18px;
+    color: #0c0c0c;
+    text-align: center;
+  }
+  .rodape {
+      padding: 32px;
+      background:#d1cb96;
+  }
+  
+  .imagem-rodape {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+  }
