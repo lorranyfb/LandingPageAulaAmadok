@@ -2,13 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
-    
+    text-decoration: none;  
 }
+
 body {
     font-size: 100%;
     background: rgb(241, 233, 118)
 }
+
 .cabecalho {
     display: flex;
     flex-direction: row;
@@ -17,33 +18,45 @@ body {
     padding: 24px;
     background: #d1cb96;
 }
+
 .logo {
     height: 100px;
 }
+
 .menu {
     display: flex;
     gap: 32px;
 }
+
 .item {
     color: #0f0f0f;
     font-weight: 400px;
     font-size: 18px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
+
+.item:hover {
+  color: #fdfcfb;
+  text-decoration: underline;
+}
+
 .conteudo {
     margin: 50px;
 }
+
 .primeira-secao {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around; 
 }
+
 div {
     display: flex;
     flex-direction: column;
     gap:32px;
 }
+
 .titulo {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
@@ -51,7 +64,7 @@ div {
     color: #050505;
   }
   
-  .subtitulo {
+.subtitulo {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 400;
     font-size: 24px;
@@ -78,6 +91,7 @@ div {
   .imagem-principal {
     height: 400px;
   }
+
   .segunda-secao {
     background-color: white;
     font-size: 22px;
@@ -116,6 +130,7 @@ div {
     margin-bottom: 1em;
     text-align: center;
   }
+
   .terceira-secao {
     display: flex;
     flex-direction: column;
@@ -123,6 +138,7 @@ div {
     margin-top: 40px; 
     padding: 50px;
   }
+
   .paragrafo {
     padding-top: 48px;
     margin-bottom: 16px;
@@ -132,6 +148,7 @@ div {
     color: #0c0c0c;
     text-align: center;
   }
+  
   .rodape {
       padding: 32px;
       background:#d1cb96;
