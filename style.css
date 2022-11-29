@@ -7,7 +7,7 @@
 
 body {
     font-size: 100%;
-    background: #f7f8fd;
+    background: #e9e6e6;
 }
 
 .cabecalho {
@@ -51,7 +51,7 @@ body {
     justify-content: space-around; 
 }
 
-div {
+.div-primeira {
     display: flex;
     flex-direction: column;
     gap:32px;
@@ -60,37 +60,48 @@ div {
 .titulo {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
-    font-size: 64px;
+    font-size: 50px;
     color: #050505;
   }
   
 .subtitulo {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     color: #0f0f0f;
-  }
-
-.botao {
-    background-color: #6275ca;
-    width: 180px;
-    height: 60px;
-    border: none;
-    box-shadow: 4px 5px 4px #000000 85.61%;
-    border-radius: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-    color: #ffffff;
-  }
-  
-  .botao:hover {
-    background-color: #0f1e61;
-    cursor: pointer;
   }
   
   .imagem-principal {
     height: 400px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+  
+  input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+  }
+
+  .botao {
+    height: 50px;
+    width: 60%;
+    background-color: #6275ca;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;;
+  }
+
+  .botao:hover {
+    background-color: #0f1e61;
+    cursor: pointer;
   }
 
   .segunda-secao {
@@ -98,7 +109,7 @@ div {
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    margin-top: 40px; 
+    margin-top: 70px; 
     padding: 50px;
     font-weight: 500;
   }
@@ -132,22 +143,21 @@ div {
     display: flex;
     flex-direction: column;
     margin-top: 40px; 
-    padding: 50px;
+    margin-bottom: 40px;
+    padding: 10px;
     font-size: 22px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+    align-items: center;
   }
 
   .paragrafo {
-    padding-top: 40px;
-    margin-bottom: 16px;
+    margin-top: 25px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400px;
     font-size: 20px;
     color: #0c0c0c;
     text-align: center;
   }
-  
+
   .rodape {
       padding: 32px;
       background: #6275ca;
@@ -158,3 +168,5 @@ div {
     display: block;
     margin: 0 auto;
   }
+
+  
